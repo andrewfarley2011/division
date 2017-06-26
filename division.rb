@@ -1,11 +1,14 @@
-
-def quotient(x,y)
-	x / y
+def denominator
+	denominator != 0
 end
 
-if x || y == 0
-	puts "Error"
-end
-
-puts quotient(15,5)
-
+puts "Numerator: " 
+numerator = gets.to_i 
+ 
+puts "Denominator: " 
+denominator = gets.to_i 
+ 
+quotient = numerator / denominator 
+ 
+puts "#{numerator} / #{denominator} = #{quotient}" 
+	
